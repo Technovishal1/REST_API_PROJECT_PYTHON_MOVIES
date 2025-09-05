@@ -14,7 +14,8 @@ This project is about building a Movie Dashboard Application that:
 - Visualize insights with an interactive dashboard.
 - Explore multi-language movie datasets in a single platform.
    
-<img width="700" height="400" alt="e868a90b-796c-4529-88e6-7680fd4d98fe" src="https://github.com/user-attachments/assets/96bff7b5-a5ce-41c5-9a16-8edb3a11dfff" />
+<img width="700" height="400" alt="e868a90b-796c-4529-88e6-7680fd4d98fe" src="https://github.com/user-attachments/assets/69c4a024-395f-4f8d-b7e5-e41a785259a1" />
+
 
 
 ## 3. Technologies Used
