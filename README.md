@@ -72,7 +72,8 @@ It is **stateless**, meaning each request from a client must contain all necessa
 }
 ```
 
-<img width="704" height="259" alt="rest-api-model" src="https://github.com/user-attachments/assets/7c32b72d-1dc5-4797-be8f-1d0ce1558b47" />
+<img width="704" height="259" alt="rest-api-model" src="https://github.com/user-attachments/assets/20a2c7c9-2a83-4200-93e8-005358d5e737" />
+
 
 ### Streamlit
 **Why?** Easy to build dashboards with Python.  
@@ -91,7 +92,8 @@ It is **stateless**, meaning each request from a client must contain all necessa
 - Select movies by language.  
 - Store raw results in JSON format.
   
-<img width="700" height="400" alt="361f1d1f-fe56-4ea7-9b44-0e4d9a402107" src="https://github.com/user-attachments/assets/4c19f445-9c2a-4501-ab40-595bc574911f" />
+<img width="700" height="400" alt="361f1d1f-fe56-4ea7-9b44-0e4d9a402107" src="https://github.com/user-attachments/assets/fcd4ff2d-1ce0-4ffe-895f-f43936baef7a" />
+
 
 ## Step 2: Transform (utils/transform.py) 
 - Convert JSON → Pandas DataFrame.  
@@ -99,7 +101,8 @@ It is **stateless**, meaning each request from a client must contain all necessa
 - Pick Top 5 movies per language.  
 - Add timestamp for reporting.
    
-<img width="700" height="400" alt="b6602d91-84f1-4217-b926-84b9de4bbaf8" src="https://github.com/user-attachments/assets/c2b48283-f091-441c-ac29-68bf7155c88a" />
+<img width="700" height="400" alt="b6602d91-84f1-4217-b926-84b9de4bbaf8" src="https://github.com/user-attachments/assets/d0016e78-d1b7-497d-ae24-1810b6be939e" />
+
 
 ## Step 3: Load (utils/load.py) 
 
@@ -107,7 +110,10 @@ It is **stateless**, meaning each request from a client must contain all necessa
 - Save DataFrame into `top_movies` table.  
 - Schema ensures consistent storage.
   
-<img width="700" height="400" alt="0e6f0b5b-177a-4a6f-b64c-4f22ec097f56" src="https://github.com/user-attachments/assets/1d1f6a89-a04d-4634-ac0f-c77f7e03130e" />
+<img width="700" height="400" alt="0e6f0b5b-177a-4a6f-b64c-4f22ec097f56" src="https://github.com/user-attachments/assets/ca1f8c0a-c32e-4626-9885-e352a207da54" />
+<img width="497" height="337" alt="Screenshot 2025-09-04 172613" src="https://github.com/user-attachments/assets/3dcd2812-34a2-40b3-b196-9ffb5921b13b" />
+
+
 
 ## Step 4: Visualize (dashboard.py) 
 - Load data from SQLite.  
@@ -117,7 +123,8 @@ It is **stateless**, meaning each request from a client must contain all necessa
   
 
 ## 6. Project Structure
-<img width="700" height="400" alt="294374df-9413-4725-9eb2-b2e1150e6e84" src="https://github.com/user-attachments/assets/30ac80d1-9c3b-4489-bef6-a6d17acafe0d" />
+<img width="700" height="400" alt="294374df-9413-4725-9eb2-b2e1150e6e84" src="https://github.com/user-attachments/assets/1582d90e-1e05-4a69-ae59-8c9d6add7301" />
+
 
 ## 7. API Key Handling
 Never expose your API key in public repositories.
@@ -159,10 +166,11 @@ streamlit run dashboard.py
   - Release dates  
   - Language-based filtering  
 - Gained hands-on experience in **REST API integration, data engineering, and visualization**.  
-- Provided a scalable base for future extensions such as embedded device integration and advanced analytics.  
-<img width="1357" height="611" alt="Screenshot 2025-09-04 201606" src="https://github.com/user-attachments/assets/2d8e1155-3e29-4c98-b87a-c3b6ffe8d519" />
-<img width="1356" height="553" alt="Screenshot 2025-09-04 202557" src="https://github.com/user-attachments/assets/7c57dd97-8b45-4579-b5f7-5e26a6dcb371" />
-<img width="895" height="487" alt="Screenshot 2025-09-04 202753" src="https://github.com/user-attachments/assets/f9a8489d-914c-4cb9-bbca-d266fb5cbe7d" />
+- Provided a scalable base for future extensions such as embedded device integration and advanced analytics.
+  
+<img width="1357" height="611" alt="Screenshot 2025-09-04 201606" src="https://github.com/user-attachments/assets/a29e930b-ef3c-46de-a637-3ed2320b81d4" />
+<img width="1356" height="553" alt="Screenshot 2025-09-04 202557" src="https://github.com/user-attachments/assets/f35db1b3-c67b-46c6-9d8a-93f47fcfac71" />
+<img width="895" height="487" alt="Screenshot 2025-09-04 202753" src="https://github.com/user-attachments/assets/e8c250aa-d7e7-4608-95a7-6f254d7a6528" />
 
 https://github.com/user-attachments/assets/9b404bba-d017-415d-87eb-f4a38f63be6e
 
