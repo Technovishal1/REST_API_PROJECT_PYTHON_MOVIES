@@ -8,7 +8,7 @@ load_dotenv()
 # Get API key safely
 API_KEY = os.getenv("TMDB_API_KEY")
 
-#API_KEY = "7c8c94a5ebfe9983732611c360c1ed25"
+#API_KEY = "7c8c94a5ebfe9983732611c360c1ed25" 
 BASE_URL = "https://api.themoviedb.org/3/discover/movie"
 
 def fetch_movies(language="hi", pages=5):
