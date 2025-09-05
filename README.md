@@ -5,7 +5,7 @@ This project is about building a Movie Dashboard Application that:
 - Fetches real-time movie data from REST APIs (TMDb/OMDb).
 - Applies an ETL process (Extract, Transform, Load) to structure the data.
 - Stores the processed data in a SQLite database.
-- Presents the results in an interactive Streamlit dashboard with posters, ratings, and release dates.
+- Presents the results in an interactive Streamlit dashboard with posters, ratings, and release dates. 
 
 ## 2. Objectives
 - Learn how REST APIs work in real-world projects.
